@@ -52,7 +52,9 @@
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
+			 
 		</nav><!-- #site-navigation -->
+		<input type="search" class="input" placeholder="Search">
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
