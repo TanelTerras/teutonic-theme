@@ -120,7 +120,7 @@ add_action( 'widgets_init', 'teutonic_widgets_init' );
  * Enqueue scripts and styles.
  */
 function teutonic_scripts() {
-	wp_enqueue_style( 'teutonic-framework', get_template_directory_uri() . '/css/teutonic.min.css',false,'1.1','all');
+	wp_enqueue_style( 'teutonic-framework', get_template_directory_uri() . '/css/teutonic.css');
 
 	wp_enqueue_style( 'teutonic-style', get_stylesheet_uri() );
 
